@@ -1,0 +1,38 @@
+.fs-400{
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 28.44px;
+
+    line-height: 28.44px;
+    letter-spacing: 0%;
+
+}
+.fs-500{
+    font-family: Raleway;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 15px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+.fs-120{
+    font-family: Bebas Neue;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 120px;
+    leading-trim: NONE;
+    line-height: 130px;
+    letter-spacing: 0%;
+    color: #ffff;
+}
+.fs-24{
+    font-family: Roboto;
+font-weight: 400;
+font-style: Regular;
+font-size: 24px;
+leading-trim: NONE;
+line-height: 32px;
+letter-spacing: 0%;
+color: #fff;
+}
