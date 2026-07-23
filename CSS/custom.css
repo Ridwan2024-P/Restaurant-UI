@@ -28,11 +28,60 @@
 }
 .fs-24{
     font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 24px;
+    leading-trim: NONE;
+    line-height: 32px;
+    letter-spacing: 0%;
+    color: #fff;
+}
+
+/* Book Table */
+.fs-62{
+    font-family: Bebas Neue;
+font-weight: 700;
+font-style: Bold;
+font-size: 62px;
+leading-trim: NONE;
+line-height: 62px;
+letter-spacing: 0%;
+
+}
+.fs-16{
+    font-family: Roboto;
 font-weight: 400;
 font-style: Regular;
-font-size: 24px;
+font-size: 16px;
 leading-trim: NONE;
-line-height: 32px;
+line-height: 24px;
 letter-spacing: 0%;
-color: #fff;
+
+}
+@media(max-width:768px){
+    .fs-120{
+    font-family: Bebas Neue;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 48px;
+    leading-trim: NONE;
+    line-height: 56px;
+    letter-spacing: 0%;
+    }
+    .fs-24{
+font-family: Roboto;
+font-weight: 400;
+font-style: Regular;
+font-size: 20px;
+leading-trim: NONE;
+line-height: 28px;
+letter-spacing: 0%;
+
+    }
+ .content{
+        width: 100%;
+        max-width: 100%;
+       
+        background: transparent;
+    }
 }

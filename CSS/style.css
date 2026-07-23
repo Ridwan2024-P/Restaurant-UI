@@ -62,9 +62,38 @@ select {
 
 /* Navbar */
 .header{
-    background-image: url("../img/Frame 2080.png");
+     background-color: #AB3227;
+}
+ .content{
+        position: relative;
+        background: linear-gradient(90deg, rgba(189, 31, 23, 0) 32.88%, rgba(189, 31, 23, 0.7) 100%);
+        width: 830px;
+
+    }
+
+    /* Booking table */
+    .book-table{
+    background-image: url("img/5a88989cf8e8eeffdc29691099a68fb261320bfa (1).jpg");
     background-size: cover;
-    background-repeat: no-repeat;
     background-position: center;
-    background: var(--hover-color)!important;
+    background-repeat: no-repeat;
+    height: 788px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+ .form-control::placeholder{
+    color: #fff;
+    opacity: 1; 
+}
+input[type="date"]::-webkit-calendar-picker-indicator,
+input[type="time"]::-webkit-calendar-picker-indicator{
+    filter: invert(1);
+    cursor: pointer;
+}
+textarea::placeholder{
+    color: #fff;
+    opacity: 1;
 }
