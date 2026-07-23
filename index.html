@@ -15,11 +15,12 @@
     <title>Home</title>
 </head>
 <body >
-    <header class="header">
+<!-- Header --> 
+<header class="header">
         <nav class="navbar navbar-expand-lg navbar-dark  ">
             <div class="container custom-nav ">
                 <a class="navbar-brand d-flex align-items-center" href="#">
-                    <img src="img/Group.png" alt="Logo" width="37" class="me-2">
+                    <img src="img/Group.png" alt="Logo" width="50" class="me-2">
                     <span class="fw-bold fs-400">Restaurant</span>
                 </a>
                 <button class="navbar-toggler"
@@ -86,7 +87,298 @@
         </div>
 </div>
 </header>
-<footer class="footer mt-5 mb-5">
+
+<section class="popular-food py-5 position-relative " style="background: #FBF7F2;
+">
+    <div class="container">
+
+        <!-- Heading -->
+        <div class="d-flex justify-content-between align-items-center mb-5">
+<div>
+                <p class="text-danger fw-bold small mb-1 fs-700x mb-3">
+                    • Crispy, Every Bite Taste
+                </p>
+
+                <h2 class="fw-bold text-uppercase fs-600x">
+                    Popular Food Items
+                </h2>
+            </div>
+
+            <div class="d-flex gap-2 ">
+                <button class=" side-bar">
+                    &#10094;
+                </button>
+
+                <button class=" side-bar">
+                    &#10095;
+                </button>
+            </div>
+
+        </div>
+            
+
+ 
+
+        <div class="row g-5">
+         <div class="col-lg-3 col-md-6">
+                <div class="card border-0">
+                    <div class="food-card text-center">
+                        <img src="img/f765b9f5184a30047efa14c4ce6e60786c18fe6e.jpg"
+                            class="img-fluid mb-3 mx-auto d-block" alt="">
+
+                        <hr class="mx-auto mb-4"
+                            style="border:4px solid #BD1F17; width:57px; opacity:1;">
+
+                        <h6 class="fw-bold text-uppercase">
+                            Vegetable Burger
+                        </h6>
+
+                        <p>Barbecue Italian cuisine</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="card border-0 h-100">
+                    <div class="food-card text-center">
+                        <img src="img/cfa6fd7bc96692a063207f1692d13a65e436d78b.jpg"
+                            class="img-fluid mb-3 mx-auto d-block" alt="">
+
+                        <hr class="mx-auto mb-4"
+                            style="border:4px solid #BD1F17; width:57px; opacity:1;">
+
+                        <h6 class="fw-bold text-uppercase">
+                            Vegetable Burger
+                        </h6>
+
+                        <p>Barbecue Italian cuisine</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="card border-0 h-100">
+                    <div class="food-card text-center">
+                        <img src="img/0b8163faf92943a143d37dab4fdb66f1542f7970.png"
+                            class="img-fluid mb-3 mx-auto d-block" alt="">
+
+                        <hr class="mx-auto mb-4"
+                            style="border:4px solid #BD1F17; width:57px; opacity:1;">
+
+                        <h6 class="fw-bold text-uppercase">
+                            Vegetable Burger
+                        </h6>
+
+                        <p>Barbecue Italian cuisine</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+                <div class="card border-0 h-100">
+                    <div class="food-card text-center">
+                        <img src="img/c07130beb820f37564100d79a40fa0793ded35d2.jpg"
+                            class="img-fluid mb-3 mx-auto d-block" alt="">
+
+                        <hr class="mx-auto mb-4"
+                            style="border:4px solid #BD1F17; width:57px; opacity:1;">
+
+                        <h6 class="fw-bold text-uppercase">
+                            Vegetable Burger
+                        </h6>
+
+                        <p>Barbecue Italian cuisine</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+<style>
+    .popular-food{
+        padding: 120px 0px !important;
+    }
+    .fs-700x{
+font-weight: 700;
+font-style: Bold;
+font-size: 20px;
+leading-trim: NONE;
+line-height: 32px;
+letter-spacing: 0%;
+
+    }
+    .fs-600x{
+      
+font-weight: 700;
+font-style: Bold;
+font-size: 62px;
+leading-trim: NONE;
+line-height: 62px;
+letter-spacing: 0%;
+color: #181818;
+
+
+    }
+    .side-bar{
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        box-shadow: 0px 0px 13.64px 0px #0000001A;
+        background-color: #fff!important;
+
+    }
+    .food-card{
+        padding: 32px;
+    }
+    .food-card img{
+        width: 186px;
+        height: 130px;
+        object-fit: cover;
+
+    }
+    .food-card h6{
+        
+font-weight: 700;
+font-style: Bold;
+font-size: 20px;
+leading-trim: NONE;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: center;
+
+    }
+    .food-card p{
+        
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+leading-trim: NONE;
+line-height: 32px;
+letter-spacing: -1.5%;
+text-align: center;
+
+    }
+    @media (max-width: 767.98px){
+
+    .popular-food{
+        padding:60px 0 !important;
+    }
+
+    .fs-700x{
+        font-size:18px;
+        line-height:28px;
+    }
+
+    .fs-600x{
+        font-size:36px;
+        line-height:42px;
+    }
+
+    .food-card{
+        padding:20px;
+    }
+
+    .food-card img{
+        width:140px;
+        height:100px;
+    }
+
+    .food-card h6{
+        font-size:18px;
+        line-height:28px;
+    }
+
+    .food-card p{
+        font-size:14px;
+        line-height:24px;
+    }
+
+    .side-bar{
+        width:45px;
+        height:45px;
+    }
+}
+</style>
+
+<!-- Booking Table -->
+ <div class="container-fluid book-table-s">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-12 booking">
+
+                <form action="">
+                    <div class="row g-4">
+
+                        <div class="col-12">
+                            <p class="text-white">• Book Now</p>
+                            <h1 class="fs-62 text-white">Book Your Table</h1>
+                            <p class="fs-16 text-white">
+                                Enim tempor eget pharetra facilisis sed maecenas adipiscing.
+                                Eu leo molestie vel, ornare non id blandit netus.
+                            </p>
+                        </div>
+
+                        <div class="col-md-6">
+                            <input
+                                type="text"
+                                name="name"
+                                id="name"
+                                class="form-control p-3 bg-transparent text-white"
+                                placeholder="Name"
+                                required>
+                        </div>
+
+                        <div class="col-md-6">
+                            <input
+                                type="email"
+                                name="email"
+                                id="email"
+                                class="form-control p-3 bg-transparent text-white"
+                                placeholder="Email"
+                                required>
+                        </div>
+
+                        <div class="col-md-6">
+                            <input
+                                type="date"
+                                name="date"
+                                id="date"
+                                class="form-control p-3 bg-transparent text-white"
+                                required>
+                        </div>
+
+                        <div class="col-md-6">
+                            <input
+                                type="time"
+                                name="time"
+                                id="time"
+                                class="form-control p-3 bg-transparent text-white"
+                                required>
+                        </div>
+
+                        <div class="col-12">
+                            <textarea
+                                class="form-control bg-transparent text-white p-3"
+                                rows="5"
+                                placeholder="Message"></textarea>
+                        </div>
+
+                        <div class="col-12">
+                            <button type="submit" class="btn btn-warning rounded-0 px-4 py-3">
+                                Book Now
+                            </button>
+                        </div>
+
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+ <!-- Footer -->
+<footer class="footer">
     <div class="container">
         <div class="row g-4 justify-content-center">
 
@@ -184,52 +476,7 @@
 </footer>
 
 
-<!-- Book Your Table
- <div class="container-fluid book-table-s mt-5 mb-5">
-    <div class="container ">
-        <div class="col-lg-6 col-md-12 booking">
-            <form action="">
-                <div class="row g-4 ">
-                     <p>Book Now</p>
-                    <h1 class="fs-62" >Book Your Table</h1>
-                   <p class="fs-16">Enim tempor eget pharetra facilisis sed maecenas adipiscing. Eu leo molestie vel, ornare non id blandit netus.</p>
-                <div class="col-md-6 ">
-                    <input type="text" name="name" id="name" class="form-control    p-3  text-white custom-placeholder   bg-transparent" placeholder="Name" required>
-                </div>
-                <div class="col-md-6 text-white">
-                    <input type="email" name="email" id="email" class="form-control  p-3 custom-placeholder  bg-transparent  " placeholder="Email" required>
-                </div>
-                <div class="col-md-6">
-                    <input type="date" name="name" id="name" class="form-control  p-3 custom-placeholder text-white  bg-transparent "  placeholder="Date" required>
-                </div>
-                <div class="col-md-6">
-                    <input type="number" name="time" id="time" class="form-control  p-3  text-white  bg-transparent "  placeholder="Time" required>
-                </div>
-                <div class="col-12">
-                    <textarea
-                        class="form-control bg-transparent text-white p-3 custom-placeholder"
-                        rows="5"
-                        placeholder=" Message">
-                    </textarea>
-                </div>
-                <div class="col-md-12">
-                  <a href="#" class="btn  btn-warning mt-3 mt-lg-0 rounded-0">
-                        Book Now
-                    </a>
-                </div>
-            </form>
-            </div>
-    </div>
 
- </div> -->
-
- <!-- Footer -->
-  
-
-<style>
-  
- 
-</style>
 
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
