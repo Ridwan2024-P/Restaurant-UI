@@ -1,5 +1,5 @@
 .fs-400{
-    font-family: Poppins;
+   
     font-weight: 400;
     font-size: 28.44px;
 
@@ -8,10 +8,10 @@
 
 }
 .fs-500{
-    font-family: Raleway;
+     font-family: Poppins;
     font-weight: 500;
     font-style: Medium;
-    font-size: 15px;
+    font-size: 20px;
     leading-trim: NONE;
     line-height: 100%;
     letter-spacing: 0%;
@@ -58,6 +58,165 @@ line-height: 24px;
 letter-spacing: 0%;
 
 }
+/*Footer  */
+ .footer{
+    background:
+        linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+        url("../img/11308d6ff909efb883f56845dcebe7cdc85a607c (1).jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+ padding: 120px 0px !important;
+
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-title{
+ font-family: Poppins;
+font-weight: 700;
+font-style: Bold;
+font-size: 24px;
+leading-trim: NONE;
+line-height: 28px;
+letter-spacing: 6%;
+
+
+}
+.time p{
+   font-family: Poppins;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+leading-trim: NONE;
+line-height: 25px;
+letter-spacing: 0%;
+text-align: center;
+
+}
+.fs-62f
+{
+    font-family: Bebas Neue;
+font-weight: 700;
+font-style: Bold;
+font-size: 62px;
+leading-trim: NONE;
+line-height: 64px;
+letter-spacing: 0%;
+text-align: center;
+
+}
+.mb-48{
+    margin-bottom: 48px;;
+}
+.mb-24{
+    margin-bottom: 24px;
+}
+.mb-12{
+    margin-bottom: 12px;
+}
+.mt-138{
+        margin-top: 138px;
+}
+.copy{
+
+font-weight: 400;
+font-style: Regular;
+font-size: 21px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 3%;
+}
+@media (min-width: 768px) and (max-width: 991.98px){
+
+    .footer{
+        height: auto;
+        padding: 80px 0;
+    }
+
+    .fs-62f{
+        font-size: 48px;
+        line-height: 54px;
+    }
+
+    .card-title{
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+    .time p{
+        font-size: 15px;
+        line-height: 24px;
+    }
+
+    .mb-48{
+        margin-bottom: 40px;
+    }
+
+    .mb-24{
+        margin-bottom: 20px;
+    }
+
+    .mb-12{
+        margin-bottom: 12px;
+    }
+
+    .mt-138{
+        margin-top: 70px !important;
+    }
+
+    .copy{
+        font-size: 20px;
+        text-align: center;
+    }
+}
+@media (max-width: 768px){
+
+    .footer{
+        height: auto;
+        padding: 60px 0;
+    }
+
+    .fs-62f{
+        font-size: 36px;
+        line-height: 42px;
+    }
+
+    .card-title{
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .time p{
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .mb-48{
+        margin-bottom: 32px;
+    }
+
+    .mb-24{
+        margin-bottom: 16px;
+    }
+
+    .mb-12{
+        margin-bottom: 10px;
+    }
+     .mt-138{
+        margin-top: 40px !important;
+    }
+
+    .copy{
+        font-size: 18px;
+        text-align: center;
+    }
+}
+
+
+
 @media(max-width:768px){
     .fs-120{
     font-family: Bebas Neue;

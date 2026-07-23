@@ -22,7 +22,7 @@
 }
 
 body {
-    font-family: var(--font-family);
+  
     font-size: 16px;
     color: var(--text-color);
     background-color: var(--background-color);
@@ -72,8 +72,8 @@ select {
     }
 
     /* Booking table */
-    .book-table{
-    background-image: url("img/5a88989cf8e8eeffdc29691099a68fb261320bfa (1).jpg");
+    .book-table-s{
+    background-image: url("../img/5a88989cf8e8eeffdc29691099a68fb261320bfa (1).jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
